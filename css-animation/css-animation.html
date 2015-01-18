@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<style type="text/css">
+			@keyframes changebg
+			{
+				0% {background: url('./images/1.jpg') no-repeat;}
+				33%{background: url('./images/2.jpg') no-repeat;}
+				66%{background: url('./images/3.jpg') no-repeat;}
+				100%{background: url('./images/1.jpg') no-repeat;}
+			}
+			@-webkit-keyframes changebg
+			{
+				0% {background: url('./images/1.jpg') no-repeat;}
+				33%{background: url('./images/2.jpg') no-repeat;}
+				66%{background: url('./images/3.jpg') no-repeat;}
+				100%{background: url('./images/1.jpg') no-repeat;}
+			}
+			body{
+				background: url('./images/1.jpg') no-repeat;
+				animation: changebg 10s;
+				-webkit-animation: changebg 10s;
+				animation-iteration-count:infinite;
+				-webkit-animation-iteration-count:infinite;
+			}
+
+		</style>
+	</head>
+	<body>
+	</body>
+</html>
